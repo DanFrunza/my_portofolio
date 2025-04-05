@@ -1,17 +1,17 @@
 import React from "react";
-import MountainImage from "./assets/Mountain.png"; // Importă imaginea
+import MountainImage from "./assets/Mountain.png";
 
-function SectionAbout() {
+function Home() {
   return (
     <section
-      id="about"
+      id="home"
       className="min-h-screen flex items-center justify-center bg-gray-900 py-20 relative text-white"
     >
       {/* Imaginea de fundal cu gradient */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url(${MountainImage})`, // Folosește imaginea importată
+          backgroundImage: `url(${MountainImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -19,7 +19,7 @@ function SectionAbout() {
         {/* Gradient pe verticală cu tranziție lentă */}
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-50"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-50"></div>
-        
+
         {/* Gradient pe orizontală cu tranziție lentă */}
         <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-black opacity-50"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-50"></div>
@@ -36,4 +36,4 @@ function SectionAbout() {
   );
 }
 
-export default SectionAbout;
+export default Home;

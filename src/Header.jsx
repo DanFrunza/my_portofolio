@@ -21,23 +21,31 @@ function Header() {
             to="home"
             smooth={true}
             duration={500}
-            className="cursor-pointer hover:text-gray-300 text-lg py-2 px-4 rounded"
+            className="cursor-pointer text-lg py-2 px-4 font-extrabold rounded transition-all duration-300 ease-in-out hover:text-gray-300 shadow-lg"
           >
             Home
+          </Link>
+          <Link
+            to="about-me"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer text-lg py-2 px-4 font-extrabold rounded transition-all duration-300 ease-in-out hover:text-gray-300 shadow-lg"
+          >
+            About me
           </Link>
           <Link
             to="projects"
             smooth={true}
             duration={500}
-            className="cursor-pointer hover:text-gray-300 text-lg py-2 px-4 rounded"
+            className="cursor-pointer text-lg py-2 px-4 font-extrabold rounded transition-all duration-300 ease-in-out hover:text-gray-300 shadow-lg"
           >
-            Proiecte
+            Projects
           </Link>
           <Link
             to="contact"
             smooth={true}
             duration={500}
-            className="cursor-pointer hover:text-gray-300 text-lg py-2 px-4 rounded"
+            className="cursor-pointer text-lg py-2 px-4 font-extrabold rounded transition-all duration-300 ease-in-out hover:text-gray-300 shadow-lg"
           >
             Contact
           </Link>

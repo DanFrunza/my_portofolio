@@ -22,9 +22,6 @@ function SectionProjects() {
     >
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold">My projects</h2>
-        <p className="mt-4 text-xl max-w-3xl mx-auto">
-          Aici vei găsi proiectele mele recente, în care am folosit React, Node.js și alte tehnologii.
-        </p>
       </div>
 
       {/* Proiectul 1 */}

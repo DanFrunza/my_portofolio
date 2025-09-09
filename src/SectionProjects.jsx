@@ -100,6 +100,8 @@ function SectionProjects() {
       <div className="text-center mt-16">
         <p className="text-xl">
           You can find other projects and university assignments on my GitHub.
+          <br /><br />
+          to be continued...
         </p>
       </div>
     </section>

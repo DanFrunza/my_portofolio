@@ -29,7 +29,7 @@ function SectionCertification() {
             <p className="text-gray-300 mb-2">FreeCodeCamp</p>
             <p className="mb-6">
               This certification validates my skills in HTML, CSS, responsive design principles, and 
-              accessibility. I completed various projects including a survey form, technical documentation 
+              accessibility. I completed various projects including a survey form, tribute page, technical documentation 
               page, product landing page, and personal portfolio.
             </p>
             

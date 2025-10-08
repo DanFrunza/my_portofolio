@@ -49,6 +49,14 @@ function Header() {
           >
             Contact
           </Link>
+          <Link
+            to="certifications"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-gray-300 text-lg py-2 px-4 rounded"
+          >
+            Certifications
+          </Link>
         </nav>
       </div>
     </header>

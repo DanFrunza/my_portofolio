@@ -4,6 +4,7 @@ import Home from './Home'
 import SectionProjects from './SectionProjects'
 import SectionContact from './SectionContact'
 import SectionAboutMe from './SectionAboutMe'
+import SectionCertification from './SectionCertification'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Home />
       <SectionAboutMe />
+      <SectionCertification />
       <SectionProjects />
       <SectionContact />
     </div>

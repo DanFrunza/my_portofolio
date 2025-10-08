@@ -34,6 +34,14 @@ function Header() {
             About me
           </Link>
           <Link
+            to="certifications"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-gray-300 text-lg py-2 px-4 rounded"
+          >
+            Certifications
+          </Link>
+          <Link
             to="projects"
             smooth={true}
             duration={500}
@@ -48,14 +56,6 @@ function Header() {
             className="cursor-pointer text-lg py-2 px-4 font-extrabold rounded transition-all duration-300 ease-in-out hover:text-gray-300 shadow-lg"
           >
             Contact
-          </Link>
-          <Link
-            to="certifications"
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:text-gray-300 text-lg py-2 px-4 rounded"
-          >
-            Certifications
           </Link>
         </nav>
       </div>
